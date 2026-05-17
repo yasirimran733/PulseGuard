@@ -1,0 +1,67 @@
+# =========================
+# Python cache files
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+
+# =========================
+# Virtual environment
+# =========================
+venv/
+env/
+ENV/
+.venv/
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+
+# =========================
+# IDEs / Editors
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# Testing cache
+# =========================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# =========================
+# Migrations (optional rule)
+# Keep this ONLY if you want fresh DB each time
+# =========================
+# migrations/__pycache__/
+
+# =========================
+# Docker (optional local artifacts)
+# =========================
+docker-compose.override.yml
+
+# =========================
+# Distribution / build
+# =========================
+dist/
+build/
+*.egg-info/
